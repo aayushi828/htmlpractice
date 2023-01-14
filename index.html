@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>University Website </title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="header">
+ <nav>
+ <a href="index.html"><img src="website/image/logo.png"></a>
+ <div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hidemenu()"></i>
+ <ul>
+      <li><a href="">HOME</a></li>
+	  <li><a href="">ABOUT</a></li>
+	  <li><a href="">COURSE</a></li>
+	  <li><a href="">BLOG</a></li>
+	  <li><a href="">CONTACT</a></li>
+ </ul>
+ </div>
+     <i class="fa fa-bars" onclick="showmenu()"></i>
+ </nav>
+ <div class="text-box">
+     <h1>World's Biggest University</h1>
+	 <p>Making a website for easy to know the information of university</p>
+	 <a href="" class="hero-btn">Visit us to know More</a>
+ </div>
+</section>
+<!-------course------>
+<section class="course">
+<h1> Course we offer</h1>
+<p>Offering of an approved classroom or seminar course, or a monitored exam of a self-study course, which includes a specific location, date(s), and time for 
+the course or exam to be held; or a location, time and frequency of a monitored exam. Sample 1Sample 2Sample 3.</p>
+     <div class="row">
+      <div class="course-col"> 
+	  <h3>Intermediate</h3>
+	  <p>Intermediate learners of something have some knowledge or skill but are not yet advanced.
+	  Students are categorized as novice, intermediate, or advanced.</p>
+	  </div>
+	  
+	  
+      <div class="course-col"> 
+	  <h3>Degree</h3>
+	  <p>Degree,also called academic degree, in education, any of several titles conferred by colleges and universities to indicate the completion of a course of study or the extent of academic achievement.
+	  Related Topics: bachelor's degree master's degree doctor Victorian Certificate associate.</p>
+	   </div>
+	  
+      <div class="course-col"> 
+	  <h3>Post Graduation</h3>
+	  <p>A postgraduate is a student who has successfully completed an undergraduate degree level course at a college 
+	  or university and is undertaking further study at a more advanced level.</p>
+	  </div>
+
+</section>
+<!-------------campus--------->
+<section class="campus">
+<h1>Our Global campus</h1>
+<p> The following paper presents an analysis of internationalization on the University of Washington (UW) campus.</p>
+<div class="row">
+  <div class="campus-col">
+  <img src="website/image/london.png">
+  <div class="layer">
+  <h3>LONDON</h3>
+  </div>
+  </div>
+  <div class="campus-col">
+  <img src="website/image/newyork.png">
+  <div class="layer">
+  <h3>NEWYORK</h3>
+  </div>
+  </div>
+  <div class="campus-col">
+  <img src="website/image/washington.png">
+  <div class="layer">
+  <h3>WASHINGTON</h3>
+  </div>
+  </div>
+</div>
+</section>
+<!-----------Facilities------->
+<section class ="facilities">
+<h1> Our Facilities</h1>
+<p>Good for student and teacher also very helpful</p>
+
+<div class ="row">
+<div class="facilities-col">
+<image src="website/image/library.png">
+<h3>World Class Library</h3>
+<p>Good for reading Book and Study</p>
+</div>
+<div class="facilities-col">
+<image src="website/image/basketball.png">
+<h3>Largest Play Ground</h3>
+<p>Good for playing</p>
+</div>
+<div class="facilities-col">
+<image src="website/image/cafeteria.png">
+<h3>Tasty and Healthy Food</h3>
+<p>Good for Health and Make Happy</p>
+</div>
+</div> 
+</section>
+<!-----------testimonials-------->
+<section class="testimonials">
+<h1>What Our Student Says</h1>
+<p>They always provided me with the assistance that i required for 
+overall development and to improve my techinal knowledge</p>
+<div class="row">
+<div class="testimonial-col">
+<img src="website/image/user1.jpg">
+<div>
+<p>They always provided me with the assistance that i required for 
+overall development and to improve my techinal knowledge</p>
+<h3>Christine Berley</h3>
+
+</div>
+</div>
+<div class="testimonial-col">
+<img src="website/image/user2.jpg">
+<div>
+<p>They always provided me with the assistance that i required for 
+overall development and to improve my techinal knowledge</p>
+<h3>David Byer</h3>
+</div>
+</div>
+</div>
+
+</section>
+
+<!----------call to action------>
+<section class="cta">
+<h1>Enroll For Our Various Online Courses<br> Anywhere Fom The World</h1>
+<a href="" class="hero-btn">CONTACT US</a>
+</section>
+<!---------footer----->
+<section class="footer">
+<h4>About Us</h4>
+<p>The University is one of the oldest and premier Universities in World</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+</div>
+
+</section>
+
+<!---------javascript for toggle menu------->
+<script>
+   var navLinks= document.getElementById("navLinks");
+   
+   function showmenu(){
+   navLinks.style.right="0";
+   }
+   function hidemenu(){
+   navLinks.style.right="-200px";
+   }
+</script>
+</body>
+</html>
